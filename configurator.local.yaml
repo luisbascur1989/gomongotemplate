@@ -1,0 +1,17 @@
+logLevel: 3
+timeout: 120
+gzipResponse: true
+limitBytesLog: 50000
+globalHeaders:
+  - name: "Content-type"
+    value: "text/xml"
+  - name: "Accept-Encoding"
+    value: "gzip,deflate,br"
+credentials:
+  persist:
+    mongoDB:
+      user: 
+      secret: 
+      database: zahyo
+      collection: users
+      host: cluster0.w9enf.mongodb.net
